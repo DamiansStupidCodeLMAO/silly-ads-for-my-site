@@ -1,0 +1,22 @@
+<html>
+    <a href="" id="link"><img id="DEFINITELY_NOT_AD" src="" style="
+    display: block;
+    max-width:100%;
+    width: 100%;
+    height: auto;"></a>
+</html>
+<script>
+    var imagearray = [
+    'https://cdn.discordapp.com/attachments/1098281666004389930/1117912795510476902/Untitled1.png',
+    'https://cdn.discordapp.com/attachments/1098281666004389930/1117918147735982121/ABOOWGA.png'
+    ]
+    var linkarray = [
+    'https://cdn.discordapp.com/attachments/1098281666004389930/1117912795510476902/Untitled1.png',
+    'https://www.youtube.com/channel/UCsXPAKXadRsL_sZdVZcKHrA'
+    ]
+    var random = Math.floor(Math.random() * imagearray.length) 
+    var image = document.getElementById("DEFINITELY_NOT_AD")
+    var link = document.getElementById("link")
+    image.src = imagearray[random]
+    link.href = linkarray[random]
+</script>
